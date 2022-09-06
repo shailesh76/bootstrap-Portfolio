@@ -1,0 +1,57 @@
+.hero{
+    height: 80vh;
+    background:linear-gradient(86.1deg,
+        rgba(185, 226, 169, 0.87) 34.84%,
+        #69D5CE 70.66%,
+        rgba(17, 71, 77, 0) 95.15%,
+        #29cfab 95.15%,
+        rgba(11, 162, 226, 0) 95.16%,
+        rgba(130, 203, 207, 0.031) 95.16%);
+
+}
+/* title*/
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+
+.title span{
+    padding: 0 1rem;
+    border-bottom: 0.4rem solid green;
+}
+/*icon*/
+.icons {
+font-size: 5rem;
+display:flex;
+font-size: 2rem;
+justify-content: space-between;
+}
+.icons i{
+    font-size: 5rem;
+}
+
+.icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* projects*/
+.Projects {
+    background: greenyellow;
+}
+/*contact*/
+.Contact{
+    box-shadow: 5px 2px 3px 4px;
+}
+/*up button*/
+.group{
+    position: fixed;
+    font-size: 2rem;
+    bottom: 5rem;
+    right: 5rem;
+}
